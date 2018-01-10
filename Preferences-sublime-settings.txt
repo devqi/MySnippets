@@ -1,0 +1,15 @@
+{
+	"color_inactive_tabs": true,
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
+	"font_size": 11,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"sidebar_row_padding_large": true,
+	"sidebar_size_13": true,
+	"status_bar_brighter": true,
+	"tabs_medium": true,
+	"tabs_padding_medium": true,
+	"theme": "Afterglow-orange.sublime-theme"
+}

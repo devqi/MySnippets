@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>3 Round Corner Triangle</title>
+    <style>
+    .container {
+        width: 360px;
+        height: 360px;
+        margin: 50px auto;
+        background-color: #d7bde2;
+        position: relative;
+        border-radius: 5px;
+    }
+
+    /*--- Instagram Analog Video Play Button*/
+    .triangle,
+    .triangle:before,
+    .triangle:after {
+        width: 60px;
+        height: 60px;
+    }
+
+    .triangle {
+        overflow: hidden;
+        position: absolute;
+        /*margin: 70px auto 0;*/
+        border-radius: 20%;
+        transform: translateY(50%) rotate(120deg) skewY(30deg) scaleX(.866);
+        cursor: pointer;
+        pointer-events: none;
+        /*left: 35%;*/
+        /*bottom: 50%;*/
+        top: 30%;
+        right: 45%;
+    }
+
+    .triangle:before,
+    .triangle:after {
+        position: absolute;
+        background: #ffffff;
+        pointer-events: auto;
+        content: '';
+    }
+
+    .triangle:before {
+        border-radius: 20% 20% 20% 53%;
+        transform: scaleX(1.155) skewY(-30deg) rotate(-30deg) translateY(-42.3%) skewX(30deg) scaleY(.866) translateX(-24%);
+    }
+
+    .triangle:after {
+        border-radius: 20% 20% 53% 20%;
+        transform: scaleX(1.155) skewY(-30deg) rotate(-30deg) translateY(-42.3%) skewX(-30deg) scaleY(.866) translateX(24%);
+    }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="triangle"></div>
+    </div>
+</body>
+
+</html>
